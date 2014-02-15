@@ -20,3 +20,5 @@ fonts, ...):
 Use transform to extract asset registry into JSON file:
 
     % xcss -t [ require-assets-xcss --output ./assets.json ] ...
+
+[require-assets]: https://github.com/andreypopp/require-assets-xcss
