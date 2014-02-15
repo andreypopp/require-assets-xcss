@@ -1,0 +1,30 @@
+{
+  "name": "require-assets-xcss",
+  "version": "0.0.0",
+  "description": "require-assets plugin for xCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andreypopp/require-assets-xcss"
+  },
+  "peerDependencies": {
+    "require-assets": "git+https://github.com/andreypopp/require-assets-browserify.git#master"
+  },
+  "keywords": [
+    "xcss-transform",
+    "xcss",
+    "require-assets"
+  ],
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreypopp/require-assets-xcss/issues"
+  },
+  "homepage": "https://github.com/andreypopp/require-assets-xcss",
+  "dependencies": {
+    "get-callsite-dirname": "~0.1.0"
+  }
+}
