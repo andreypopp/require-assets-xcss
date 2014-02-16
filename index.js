@@ -25,7 +25,6 @@ module.exports = function(stylesheet, options) {
       'xcss -t [ require-assets/xcss --output ./url-filename.json ] ...');
   }
 
-  var registry = requireAssets.getRegistry(options);
   requireAssets.configure(registry);
 
   fs.writeFileSync(output, JSON.stringify(registry));
